@@ -1,0 +1,16 @@
+@mixin backgroundIcone ($enderecoImagem) {
+    background-color: rgba(255, 255, 255, 0.089);
+    background-image: url($enderecoImagem);
+    background-position-y: center;
+    background-position-x: 5px; 
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 12px 5px 12px 40px;
+    line-height: normal;
+}
+@mixin flexPosition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

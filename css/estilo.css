@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: radial-gradient(ellipse at top, #ec7763, #080d2d);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container main {
+  height: 400px;
+  width: 500px;
+  box-shadow: 0px 0px 10px 1px rgb(0, 0, 0);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container main form button {
+  background: radial-gradient(ellipse at top, rgba(255, 255, 255, 0.089), #fe5387);
+}
+.container main form button:hover {
+  background: radial-gradient(ellipse at top, #fe5387, rgba(255, 255, 255, 0.089));
+}
+.container main #usuario {
+  background-color: rgba(255, 255, 255, 0.089);
+  background-image: url("../user.png");
+  background-position-y: center;
+  background-position-x: 5px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding: 12px 5px 12px 40px;
+  line-height: normal;
+  border: none;
+}
+.container main #senha {
+  background-color: rgba(255, 255, 255, 0.089);
+  background-image: url("../password.png");
+  background-position-y: center;
+  background-position-x: 5px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding: 12px 5px 12px 40px;
+  line-height: normal;
+  border: none;
+}
+.container main .cadastrar_novo_usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container main .cadastrar_novo_usuario a {
+  color: rgba(255, 255, 255, 0.505);
+  font-weight: 100;
+  text-decoration: none;
+}
+.container #tela_cadastro_usuario {
+  width: 75%;
+  position: fixed;
+  height: 80%;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.685);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.container #tela_cadastro_usuario #fecharJanela {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: end;
+  cursor: pointer;
+  color: white;
+  width: 100px;
+  padding: 20px;
+}
+.container #tela_cadastro_usuario h2 {
+  color: white;
+  margin: 20px;
+}
+.container #tela_cadastro_usuario .linha_cadastro {
+  width: 50%;
+}
+.container #tela_cadastro_usuario input {
+  margin: 10px;
+}
+.container #tela_sucesso {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: white;
+  color: black;
+  display: none;
+}
+.container #tela_sucesso p {
+  padding: 20px;
+  background-color: green;
+  height: 50px;
+}
+
+.cadastroSucesso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  font-family: aptos;
+}
+
+.erro {
+  color: red;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=estilo.css.map */
