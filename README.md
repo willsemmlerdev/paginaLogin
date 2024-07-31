@@ -20,5 +20,4 @@ Na busca constante de aprendizado e desenvolvimento das habilidades, concluo est
 
 # 🖼️ Outras imagens
 ![Tela Cadastro Usuário](arquivos_readme/cadastro_novo_usuario.png)
-![Erro campo não foi preenchido](arquivos_readme/erro_falta_preenchimento.png)
-![Retorno visuais para cadastro realizado com sucesso](arquivos_readme/retorno_visual_cadastro.png)
+![Erro campo não foi preenchido](arquivos_readme/erro_falta_preenchimento.png) ![Retorno visuais para cadastro realizado com sucesso](arquivos_readme/retorno_visual_cadastro.png)
